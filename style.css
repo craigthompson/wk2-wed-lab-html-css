@@ -1,0 +1,76 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #d1ffcc;
+}
+
+.lead {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+table th {
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px 10px;
+}
+
+.table-last-col {
+  text-align: right;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
+label.inline-label {
+  display: inline;
+}
+
+.message-text {
+  width: 100%;
+  min-height: 100px;
+}
+
+#container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe-label {
+  margin: 10px auto;
+}
+
+input[type="submit"] {
+  padding: 15px 40px;
+  border: 1px;
+  border-radius: 100px;
+  font-size: 2em;
+}
+
+input[type="submit"]:hover {
+  background-color: grey;
+  cursor: pointer;
+}
